@@ -2,7 +2,7 @@
 Tic Tac Toe game implemented in ASP.Net, C#, HTML and CSS
 
 
-This mini tic tac toe application is a part of my coursework here at NYU. The application was made with the intent of learning the working of browser cookies, session management,
+This mini tic tac toe application is a part of my coursework here at ASU. The application was made with the intent of learning the working of browser cookies, session management,
 postbacks, viewstates and the importance of hashing. It uses viewstate to maintain the state of the game while playing and making several server requests to determine the result of the game.
 
 
