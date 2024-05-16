@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="Content/Site.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+           <div id="navbar">
+            <div class="navButtons">
+                <a href="Default.aspx">Login</a>
+            </div>
+            <div class="navButtons">
+                <a href="About.aspx">About</a>
+            </div>
+
+            <div class="navButtons">
+                <a href="TicTacToe.aspx">Tic Tac Toe</a>
+            </div>
+
+        </div>
+
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+        </asp:ScriptManager>
+
+ 
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+    </form>
+</body>
+</html>

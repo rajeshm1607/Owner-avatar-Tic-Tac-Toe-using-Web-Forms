@@ -1,0 +1,24 @@
+﻿html, form, body {
+    height:100%;
+    width:100%;
+}
+
+#MainContent {
+    display:inline-block;
+}
+
+input {
+    width: 200px;
+    border: 1px solid;
+  
+}
+
+input, span {
+    margin:5px;
+
+}
+
+
+#MainContent_Label1 {
+    font-size: medium;
+}
